@@ -1,0 +1,41 @@
+!DOCTYPE html>
+    <link rel="stylesheet" href="stylesheet.css">
+    <head> </head>
+    <body>
+        <!-- https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using -->
+        <script>
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+          </script>
+        <div class="grid">
+            <div class = "large3">   
+                <span class="logo"><img src="/home/gvsu-it/Documents/Intrusion Signature/GVSU_Logo_Asset_Pack_2023/For_Print/Markleft/Blue/Blue_PMS/gvsu_markleft_blue_286C.svg" alt="GVSU Logo" height="50"></span>
+                <span class="explanation">Intrusion Signature</span>
+            </div>
+            <div class="smallbox" style= "color:White;">Allowed Intrusion Attempts</div>
+            <div class="smallbox" style= "color:White;">Block Intursion Attempts</div>   
+            <div class="smallbox" style= "color:White;">Critical Severity Alerts</div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FSOC_Allowed_Instrusion_Attempts&oid=MpgdfzkJYk6HKc8Nxv%5ESPZ7ODxxmaZwELWnhHQL9KI2oM7EaF7fDQpI1C4D_ArtaP%5EmfwEpoBIN5BtrsdRWEy6VBQfAXtgE58phYT55yE9dpKkwQkbXm6vMFNhULr4uChaO4CKESzJYyti9%5EBNYGknR_OkayQfb_f7VwRmot%5EpqUBMY95iazH05XqhPGk8SrBC%5E318vODvkNcVIIItfA3gL" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FSOC_Blocked_Intrusion_Attempts&oid=sJfNrqudaTHzci12A4L8AX%5EtVJUJ62G9wkMYlAId8_mwZKyygBFYF2Gk0SaLusJvNf4y2NvqUYxDnRdB9A1E9AN%5EJnwbqQhWnBn4c0FChTxhEbTCbp_pkRjnsBVhrFL0eGMQMrLRbgkVEIJhOqi5K7bfEvVj0qWpsKdxOL3hvouomn91BuAUjVJ6B7pM2eNt6SAcoDdLTlrsF7%5E3dEL" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonm-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FCritical%2520Severity%2520Alerts&oid=AE4YM8_6wWeARYgno7%5E1y5lLoTE2vJy0wM_JxxtJPFsLvtNaSqptCN1yvYFbvfIaKEG3pXUjxnD9sqPPuALu9tn3nGJCf76e14j45zbeZEWsEiBhTjV5YdblX3AnIXED2iXPHPMpdFSeNCiMH9IMlormD2_SbeAvEWsQOSuXkSB%5EmMDpJi%5El1Mp2%5E%5ELhdvYNRuX_sM6b" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="largebox" style= "color:White;">Okta Successful Logon Attempts</div>          
+            <div class="item large2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FSOC_Instrusion_Attacks_External&oid=JkT9Btzg7AUfpbovqUaJhRKdaXH89obvUQwgT2cTXqP3Wym73JxnEfYA9cWeMDnY701h5hbV%5EGPGq8TX_7esRzHhkSLCL_en_vw6%5EUrR3OUx_wk9f_qdP3s0Xi76PH3qc7lAdevHmN3KDYxNM1PtaOdCj29O_EzswoArv7Sul6z3%5EGKn7sA9x4_YE4RORZPzkVWklXW9CfeB7AoEGtt7cN" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="mediumbox" style= "color:White;">Intrusion Siqnature</div>     
+            <div class="item large"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FSOC_Intrusion_Signature&oid=LXuihnGl0qzeMI7%5ERvX8NJNzYDfcBTOpgYzE7E0HCTMncxXJt_D9RwYx3WZme73H%5EwFfHA42XC3gmRnoPJqemYPzVuiIxfabGVzltB15mpyhacg4Z8sa_gr3Jft0FudVmtAISJTv0%5E46IywH6w_3NFr8mCOLrpj06aRbp5T8loiFTbSP6oC44fhlNXiJpYsoqXGA" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="smallbox" style= "color:White;">Many Attacks From Same Source</div>      
+            <div class="item4"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonm-admin%2FInfoSec_App_for_Splunk%2Fsaved%2Fsearches%2FMany%2520Attack%2520Same%2520Source&oid=qYlMNnbPMfDJlQpHORc2dttW3UPtzbWc9XBguXBs3PCSnAUP1L8TQnDRV37G8HfZIotnsQBhnJsfHdwLW6rEunFKad9yvk5z2Mtux%5EtaHQRBzQlbrABIO8dHMl4Qn8%5E5unuEkaSauKqkb5zXGJJSJRGEvtVNvQmAf0FahiFNVgB8ZCy2hv68mbB5rTD9g2AjQx0eq29PIzuB"
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>    
+        </div>
+    </body>

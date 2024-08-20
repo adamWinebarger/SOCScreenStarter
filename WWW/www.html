@@ -1,0 +1,33 @@
+!DOCTYPE html>
+    <link rel="stylesheet" href="stylesheet.css">
+    <head> </head>
+    <body>
+        <!-- https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using -->
+        <script>
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+          </script>
+        <div class="grid">
+            <div class = "large3">   
+                <span class="logo"><img src="/home/gvsu-it/Documents/Intrusion Signature/GVSU_Logo_Asset_Pack_2023/For_Print/Markleft/Blue/Blue_PMS/gvsu_markleft_blue_286C.svg" alt="GVSU Logo" height="50"></span>
+<span class="explanation">WWW</span>
+            </div>
+            <div class="mediumbox" style= "color:White;">Hits by Host</div>
+            <div class="large"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2Fgvwww%2Fsaved%2Fsearches%2FSOC_WWW_Hits_by_Hosts&oid=xVeYIPRh5MChendsSC83NpUx%5EPtM9oH_wqYnAJpJ1Evt41qQjrmC9X1wXU_nT4ndTy1JmXQsRAWYB%5EuMl7MqcRceJjsEtig97BNIYfZhm8BpVIoSQstvXwXLiOwODANa1ipiUiTFDn59EJ_tf21pnjvvnRnb%5ENyHiIzTY8dZi2tBt4YyeC" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="mediumbox" style= "color:White;">Regions Outside Michigan</div>    
+            <div class="large"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2Fgvwww%2Fsaved%2Fsearches%2FSOC_WWW_Top_Regions_Outside_Michigan&oid=53EK8moUDpXZ5VcBf41qsVRWYTN_6E5A3IgrXzXEcXgcegg3VxeCRgfgZVgiGbpFtvYASbhsoMSNSebiB1uAZIViQYeH6o1Xv4xedgABrPu9EUWVGP09WrkF%5EnzVRTQNPz3i2M0IW5vi3EowvSmv2wbjcPkpQptwgCf_IXxl4ZSuSNrBodRMUacEhojHtk6begojbOS" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="smallbox" style= "color:White;">Top IP Address (Last 4 Hours)</div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2Fgvwww%2Fsaved%2Fsearches%2FSOC_WWW_TOP_IP_Last_4&oid=6WLIc2Ex60GgS64bXr1d61tZDDbvygv5Pp4x3I%5Ezur4TdabAKal6IoUzpoKP1I4qMt3TDRr4vtF11Jyc3_DAVcMi3fQ3sj2ujksAtq2HkG7GtWkN3aG5vWtZ6dl6aTymn7mJv9UJ1bKMUUUdpUg0xtwmr5iiDEFDU6Io2qitNPtgcMzsHnsu"
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="smallbox" style= "color:White;">Top Resources (Last 4 Hours)</div>        
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2Fgvwww%2Fsaved%2Fsearches%2FSOC_WWW_TOP_Resources_Last_4&oid=ERXL3KRSz4_WBBklSHXEhHHdRavBUjyZe1A7b4sWkwknUre50625cELyIUGFPeg1FgV6%5E0huhsuYyHz5C%5EdYLuTV%5EnBbDdZE5X4jKz6ey_rAfE9wRThuzhqGdx9SFfhFinjCpKdW4Rab16iDOMk2Yi3TUz5HtSILUfJt5WNeSzmn5L3FVF1sdF" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>  
+        </div>
+    </body>
