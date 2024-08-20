@@ -1,0 +1,45 @@
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <head> </head>
+    <body>
+        <!-- https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using -->
+        <script>
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+          </script>
+        <div class="grid">
+            <div class = "large3">   
+                <span class="logo"><img src="/home/user/Documents/GVSU/CIS490/Uneven/GVSU_Logo_Asset_Pack_2023/For_Print/Markleft/Blue/Blue_PMS/gvsu_markleft_blue_286C.svg" alt="GVSU Logo" height="50"></span>
+                <span class="explanation">BlackBoard</span>
+            </div>
+            <div class="smallbox" style= "color:White;">Authentication Login Trend</div>
+            <div class="smallbox" style= "color:White;">Successful Login Trend</div>   
+            <div class="smallbox" style= "color:White;">Failed Login Trend</div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_BlackBoard_Authentication_Login&oid=AFTGI2q71aopVSQtsppxxsRtu1df44MHilhiTf4ep7r0qA0zURx17_l4TAtlhvjV2XH_Zstbn4h3fM_i3x9OVi6jm_FPLoa1KBelm7J547hy4haKNa8J5XOBheOX9uSQtBP8yRyawunyfufneuELe59E06dJWpvYSYwYBVhNARE%5EcWTz0J5V4ijQgYn2T6_usu5D" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%"
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_Blackboard_Successful_Logins&oid=i3d8YPsAC5YzWChr6ua%5E3waxGPIWIDDRDG5YNI9VwD8ZLqWDkS_ZUzYWNTMs0%5EyvajNV1p5icji%5E0yXor3RO0Zyr2PwFar8ZX6nRojyzd2FQyV03ZrqpBAzxUamGZZFuochAKWipYmNgvLyDsOw9FahfWAo0C7a0oauj99Of6kJI8n1XFviNSo0cK1b1RBnS3jiWL1F" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe></div>
+            <div class="item2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_Blackboard_Failed_Login&oid=7lYLkH8xXKOK8KKcDTYW1aHz4VgWHpayoM0sfYn1UTnXvpE8QOMyZt4UTVd%5ERm8vuw_MkR3PfuRtOaFVtdMIpCQEuvNK3Vnt2m%5EmXwOsKEVUriiiRPRmtWjjQO9oiO1RMn23f7S4LDTVbaDeFhMGV9Q%5EIuI0BwoF0GGpeyG_yzFzKj3_ltVl6nYmn214" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="largebox" style= "color:White;">Login Logout Events</div>          
+            <div class="item large2"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_Blackboard_Login_Logout_Events&oid=tt8iFSgaPNoFJ0ByjvW_Wf2oSDZqebFTFYZUlpe_rhNKIqHQumPPx5gy2WyAudv%5EqbXkGWo66T8Y3s3v%5Ep8lr2vMhQaiooh8Ocv5AxGaI_GbscIag%5Ez92LjJzoyDGOglHheybfEIQMVrDsaA9lPUaTFIX8hyVCcOjyV4Bdh03A2DQOqaJQTRTceNGJMcvp0OXg9SxD6Y" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="smallbox" style= "color:White;">Successfull Login</div>
+            <div class="smallbox" style= "color:White;">Login Failed</div>  
+            <div class="smallbox" style= "color:White;">Login outside United States</div>      
+            <div class="item item4"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_Blackboard_Successful_Login_Table&oid=mS50eRYN5ymVGcW9CL9yOIKI6AftAweFp8KPk3WjXONFNxJczBse5oeyIMfYAG75uNOzKJD768pXyeRNDL5XTG2UbhBAShB7OrqmSlXd6Ekp6SeGoFk6IsgNjg9fcYxmTyNRNaWphgx5gnfG_GfWcC7_EVR_wUMVGX2ftz049H%5ECyH8eYx9_2nx2V5i0bjMGS092NCyUNfY" 
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>    
+            <div class="item4"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonq-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_Blackboard_Login_Failed_Table&oid=bJD1mxpI1Du_JKS_12lA_KhRmh0410b6i_rwpnBZblywILUJquYkQz9renMNmFxIDDkfz7WRh_xarZ5yYnRNIP9i0F3CpZCyeHbTS6u%5Eyw0BfgJYZP_AkNUsSTrk%5Ewl5AIiZ_c071V7pajJINZE4MKgXaulk3llMFBQPySRGQTp2NX9X20mupnLfJ5NfJLuzHo"
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>
+            <div class="item4"><iframe style="position: relative; left:0; top:0; width:100%; height:100%" 
+                src="https://splunk-sh1.server.gvsu.edu:8000/en-US/embed?s=%2FservicesNS%2Fs_gairsonm-admin%2FBlackBoard%2Fsaved%2Fsearches%2FSOC_BlackBoard_Location&oid=6f7cieAo5oy%5E91Z4J05cwZKVwgXe4FtyPms4M4m%5EVnPgQl3Wm2zGqTZQS_aYYCwrCmgvQ5uTTJ3c2TCjZvNhUmYPEEG9nhoZeIjZDZ4j9OMrGdJzryhtVY8AotAWCMtI0Eyx%5ERz820mpDs9r3m146WGE5bvLq18ZxZFi%5EgzK6OI6ROSMWYdjBBcO"
+                frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe></div>        
+        </div>
+    </body>

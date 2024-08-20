@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  body {
+    padding: 0.25em;
+  }
+  
+  .logo{
+    float:left;
+    overflow:auto;
+    padding-right: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .explanation{
+    height: 75px;
+    overflow:auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+   
+    grid-auto-flow: row dense;
+  }
+  
+  .item2 {
+    background: rgb(70, 68, 68);
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    height: 470px;
+    padding: 5px;
+    overflow: auto;
+  }
+  
+  .smallbox {
+    background: rgb(70, 68, 68);
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    height: 20px; 
+    padding: 0.25em;
+    text-align: center; 
+    }
+  
+    .mediumbox {
+      background: rgb(70, 68, 68);
+      grid-column: auto / span 2;
+      grid-row: auto / span 1;
+      height: 20px; 
+      padding: 0.25em;
+      text-align: center; 
+      }
+  
+  .large {
+    background: rgba(70, 68, 68);
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    height: 470px;
+    padding: 5px;
+    overflow: auto;
+  }
+  
+  .large3 {
+    background: rgb(0, 0, 0);
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+    color:white; 
+    font-size:35px;
+    padding-top: 20px;
+  }
