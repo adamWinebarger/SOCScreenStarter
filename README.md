@@ -36,6 +36,10 @@ This is actually the one that got me started on designing these SOC screens. But
 
 Design-wise/Layout-wise, setting this one up should be similar to the last 2 unless you want to add your own things into it. But by this point, you should be pretty proficient in the basics of setting up these SOC Screens
 
+### Logo... something
+
+I have no idea what's in here. It was just in with some of the other files. Probably not super useful, but feel free to poke around.
+
 ## Conclusions/Final Notes
 
 ... I dunno. Have fun, I guess.
